@@ -49,7 +49,7 @@ int main(int argc, char** argv)
 	SG_INIT(g);
 
 	g.nv = N;
-	g.v = (int*) malloc(N * sizeof(int));
+	g.v = (size_t*) malloc(N * sizeof(size_t));
 	g.d = (int*) malloc(N * sizeof(int));
 	g.e = (int*) malloc(N * N * sizeof(int));
 

@@ -50,7 +50,9 @@ NAUTYOBJS     	= $(NAUTYDIR)/nauty.o 			\
 				  $(NAUTYDIR)/gtools.o			\
 				  $(NAUTYDIR)/nautil.o			\
 				  $(NAUTYDIR)/nautinv.o			\
-				  $(NAUTYDIR)/naugraph.o
+				  $(NAUTYDIR)/naugraph.o		\
+				  $(NAUTYDIR)/schreier.o		\
+				  $(NAUTYDIR)/naurng.o	
 					
 LIBOBJS			= $(TREESEARCHOBJS) $(NAUTYOBJS)
 			

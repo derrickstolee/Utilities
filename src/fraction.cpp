@@ -322,7 +322,6 @@ fraction fraction::operator+(fraction f) throw (FractionException)
 	}
 	else
 	{
-		long long int l = lcm(this->b, f.b);
 		// TODO: check for overflow/underflow here.
 		sum.b = this->b * f.b;
 		sum.a = (f.b) * this->a + (this->b) * f.a;
@@ -344,7 +343,6 @@ fraction fraction::operator-(fraction f)
 	}
 	else
 	{
-		long long int l = lcm(this->b, f.b);
 		// TODO: check for overflow/underflow here.
 		sum.b = this->b * f.b;
 		sum.a = (f.b) * this->a - (this->b) * f.a;

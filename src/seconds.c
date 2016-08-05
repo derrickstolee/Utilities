@@ -36,7 +36,7 @@ int main(void)
 	{
 		long long int seconds_int = seconds;
 
-		double msecs, secs, mins, hrs, days, yrs;
+		double mins, hrs, days, yrs;
 
 		mins = seconds / (double) 60;
 		hrs = seconds / (double) 3600;
