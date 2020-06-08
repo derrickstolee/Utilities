@@ -97,7 +97,7 @@ all: $(OBJECTS) $(TESTS) $(TARGETS)
 	cp $@ ../bin/
         
 clean:
-	rm $(OBJECTS) $(TARGETS) $(TESTS)
+	rm -f $(OBJECTS) $(TARGETS) $(TESTS)
 	
 cleanexe:
-	rm $(TARGETS)
+	rm -f $(TARGETS)
